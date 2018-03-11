@@ -84,4 +84,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 <br />
 
-© 2017 Cryptovation All Right Reserved
+Copyright (c) 2018 CryptovationX All Right Reserved
