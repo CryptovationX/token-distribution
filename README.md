@@ -17,7 +17,7 @@ Investment Robo-Advisory that uses quantitative analysis to recommend you the mo
 
 The CXO Token `CryptovationX.sol` is ERC-20 standard compatible and has the following additional characteristics:
 
-1. An initial amount of 900,000,000 CXO tokens supply.
+1. An initial amount of `900,000,000 CXO` tokens supply.
 2. An ability to burn tokens by users to reduce total number of token supply.
 
 ## Implementation
