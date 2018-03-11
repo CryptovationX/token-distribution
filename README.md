@@ -40,7 +40,9 @@ The token contract includes the following constants:
 
 The above constants indicate a maximum supply of 900 million tokens.
 
-## Find me on socials networks
+<br />
+
+## Our socials networks
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 <!-- display the social media buttons in your README -->
 
@@ -64,7 +66,13 @@ The above constants indicate a maximum supply of 900 million tokens.
 [2]: https://www.facebook.com/cryptovation.co
 [3]: https://github.com/cryptovationx
 
+<br />
+
+## 
+
+<br />
+
 ## Authors
-- Makkhawan Voraboot
+* **Makkhawan Voraboot** - *Initial work* - [itoonx](https://github.com/itoonx)
 
 © 2017 Cryptovation All Right Reserved
