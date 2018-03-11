@@ -36,6 +36,8 @@ The token contract includes the following constants:
     symbol           = "CXO";
     decimals         = 18;
     INITIAL_SUPPLY   = 900 million CXO
+    Mintable         = false
+    Burnable         = true
 ```
 
 The above constants indicate a maximum supply of 900 million tokens.
