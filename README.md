@@ -68,11 +68,18 @@ The above constants indicate a maximum supply of 900 million tokens.
 
 <br />
 
-## 
+## Links
+[Our Site](https://cryptovationx.io)
+[CryptovationX - Introducing "X"](https://www.youtube.com/watch?v=AjfWmyxhfcg)
 
 <br />
 
 ## Authors
 * **Makkhawan Voraboot** - *Initial work* - [itoonx](https://github.com/itoonx)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+<br />
 
 © 2017 Cryptovation All Right Reserved
