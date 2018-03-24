@@ -69,3 +69,5 @@ secrets.json
 # DS Store file
 **DS_Store
 
+# Visual Studio Code
+.vscode
