@@ -22,10 +22,9 @@ The CXO Token `CryptovationX.sol` is ERC-20 standard compatible and has the foll
 
 ## Implementation
 
-We use [OpenZeppelin](https://openzeppelin.org) code for `SafeMath`, `Ownable`, `Burnable` and `StandardToken` logic.
+We use [OpenZeppelin](https://openzeppelin.org) code for `SafeMath`, `Burnable` and `StandardToken` logic.
 
 * `SafeMath` provides arithmetic functions that throw exceptions when integer overflow occurs.
-* `Ownable` keeps track of a contract owner and permits the transfer of ownership by the current owner.
 * `Burnable` provides a burn function that decrements the balance of the burner and the total supply.
 * `StandardToken` provides an implementation of the ERC-20 standard.
 
