@@ -7,6 +7,5 @@ const maxTokenSupply = 900000000 * Math.pow(10, 18);
 
 module.exports = {
   creatorAddr: creatorAddr,
-  newOwner: newOwner,
   maxTokenSupply: maxTokenSupply
 };
