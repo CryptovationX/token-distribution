@@ -5,9 +5,9 @@
 
 pragma solidity ^0.4.18;
 
-import '../Helpers/ERC20/StandardToken.sol';
-import '../Helpers/ERC20/BurnableToken.sol';
-import '../Helpers/ownership/Ownable.sol';
+import "../Helpers/ERC20/StandardToken.sol";
+import "../Helpers/ERC20/BurnableToken.sol";
+import "../Helpers/ownership/Ownable.sol";
 
 contract CryptovationX is StandardToken, BurnableToken, Ownable {
 

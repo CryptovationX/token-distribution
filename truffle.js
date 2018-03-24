@@ -15,6 +15,7 @@ const infuraProvider = network => providerWithMnemonic(
 );
 
 const ropstenProvider = process.env.SOLIDITY_COVERAGE ? undefined : infuraProvider('ropsten');
+const mainnetProvider = process.env.SOLIDITY_COVERAGE ? undefined : infuraProvider('mainnet');
 
 module.exports = {
   networks: {
@@ -27,6 +28,12 @@ module.exports = {
       host: 'localhost',
       port: 8545,
       network_id: 1, // eslint-disable-line camelcase
+    },
+    staging: {
+      provider: mainnetProvider,
+      network_id: 1, // eslint-disable-line camelcase,
+      gas: 4700000,
+      gasPrice: 2e10,
     },
     ropsten: {
       provider: ropstenProvider,
