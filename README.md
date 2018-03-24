@@ -38,6 +38,7 @@ The token contract includes the following constants:
     INITIAL_SUPPLY   = 900 million CXO
     Mintable         = false
     Burnable         = true
+    TokenType        = Utility Token
 ```
 
 The above constants indicate a maximum supply of 900 million tokens.
