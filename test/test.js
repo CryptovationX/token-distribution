@@ -1,4 +1,6 @@
 
+const BN = require('bn.js');
+
 constants = require('./constants.js');
 secrets = require('../secrets.json');
 
@@ -29,6 +31,25 @@ contract('CryptovationX', (accounts) => {
             let symbol = await INSTANCE_DEPLOYED.symbol.call();
             assert.strictEqual(symbol, constants.tokenSymbol);
         });
+    });
+
+    describe("Check ERC-20 standard compatible", () => {
+
+        it("Should test 'Transfer()' with correct amount", async () => {
+            let amount = web3.toWei(2000);
+            let senderAcc = accounts[0];
+            let receiverAcc = accounts[1];
+
+            let transaction = await INSTANCE_DEPLOYED.transfer(receiverAcc, amount, { from: senderAcc });
+            assert.lengthOf(transaction.tx, 66, "Invalid transaction length")
+
+            let senderBalance = await INSTANCE_DEPLOYED.balanceOf(senderAcc);
+            let receiverBalance = await INSTANCE_DEPLOYED.balanceOf(receiverAcc);
+
+            assert.equal(senderBalance.toString(10), "899998000000000000000000000", "Invalid balanceOf sender");
+            assert.equal(receiverBalance.toString(10), "2000000000000000000000", "Invalid balanceOf receiver");
+        });
+
     });
 
 });
