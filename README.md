@@ -1,7 +1,7 @@
 <!-- Logo -->
 <p align="center">
     <a href="https://github.com/CryptovationX/token-distribution">
-        <img height="128" width="128" src="https://cryptovationx.io/images/logos/Token.png">
+        <img height="128" width="128" src="http://cryptovationx.io/images/logos/Token3.png">
     </a>
 </p>
 <!-- Name -->
