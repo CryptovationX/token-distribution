@@ -7,10 +7,10 @@ const receiverAddr = "0x9077a19de4ae8fcd0a80759a823d238c8dc5b5d6";
 // Vanity information of the token
 const tokenName = "CryptovationX";
 const tokenDecimals = 18;
-const tokenSymbol = "CXO";
+const tokenSymbol = "CXA";
 
 // Number of tokens minted to creator
-const maxTokenSupply = 900000000 * Math.pow(10, 18);
+const maxTokenSupply = 12000000000 * Math.pow(10, 18);
 
 module.exports = {
   creatorAddr: creatorAddr,

@@ -12,9 +12,9 @@ contract CryptovationX is StandardToken, BurnableToken {
 
   // Constants
   string  public constant name = "CryptovationX";
-  string  public constant symbol = "CXO";
+  string  public constant symbol = "CXA";
   uint8   public constant decimals = 18;
-  uint256 public constant INITIAL_SUPPLY = 900000000 * (10 ** uint256(decimals));
+  uint256 public constant INITIAL_SUPPLY = 12000000000 * (10 ** uint256(decimals));
 
   // Properties
   address public creatorAddress;
