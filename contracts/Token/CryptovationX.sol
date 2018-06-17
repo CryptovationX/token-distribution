@@ -1,6 +1,5 @@
 /**
- * CryptovationX
- * The Best One-Stop-Solution Robo-advisor for Blockchain Investment.
+ * CryptovationX - The Best Friend for Crypto Investors
 */
 
 pragma solidity ^0.4.18;

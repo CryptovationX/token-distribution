@@ -13,6 +13,11 @@
 
 Investment Robo-Advisory that uses quantitative analysis to recommend you the most profitable with low risk trading opportunities in cryptocurrencies.
 
+## Token Address
+```
+0x485cb31a8e45882de7b4c5de7a8ad8b68a1fd3a1
+```
+
 ## CryptovationX
 
 The CXA Token `CryptovationX.sol` is ERC-20 standard compatible and has the following additional characteristics:
@@ -72,6 +77,7 @@ The above constants indicate a maximum supply of 1200 million tokens.
 
 ## Links
 - [Our Site](https://cryptovationx.io)
+- [Etherscan.io](https://etherscan.io/token/0x485cb31a8e45882de7b4c5de7a8ad8b68a1fd3a1)
 - [CryptovationX - Introducing "X"](https://www.youtube.com/watch?v=AjfWmyxhfcg)
 
 <br />
