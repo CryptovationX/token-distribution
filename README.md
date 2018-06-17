@@ -15,9 +15,9 @@ Investment Robo-Advisory that uses quantitative analysis to recommend you the mo
 
 ## CryptovationX
 
-The CXO Token `CryptovationX.sol` is ERC-20 standard compatible and has the following additional characteristics:
+The CXA Token `CryptovationX.sol` is ERC-20 standard compatible and has the following additional characteristics:
 
-1. An initial amount of `900,000,000 CXO` tokens supply.
+1. An initial amount of `12,000,000,000 CXA` tokens supply.
 2. An ability to burn tokens by users to reduce total number of token supply.
 
 ## Implementation
@@ -32,15 +32,15 @@ The token contract includes the following constants:
 
 ```javascript
     name             = "CryptovationX";
-    symbol           = "CXO";
+    symbol           = "CXA";
     decimals         = 18;
-    INITIAL_SUPPLY   = 900 million CXO
+    INITIAL_SUPPLY   = 1200 million CXA
     Mintable         = false
     Burnable         = true
     TokenType        = Utility Token
 ```
 
-The above constants indicate a maximum supply of 900 million tokens.
+The above constants indicate a maximum supply of 1200 million tokens.
 
 <br />
 
